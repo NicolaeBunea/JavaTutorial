@@ -7,10 +7,14 @@ public class WhileLoop {
     public void Execute(){
     WhileExemple();
     }
-    public Integer i=1;
+    public Integer i=2;
     public void WhileExemple(){
-        while (1<=10){
+        while (i<=10){
             System.out.println(i);
+            i++;
+            //i+=2;
+
         }
+        System.out.println("Program executed");
     }
 }
