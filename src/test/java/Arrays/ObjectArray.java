@@ -16,7 +16,7 @@ public class ObjectArray {
         a[3]='G';
         a[4]=true;
 
-        Object a[]={100,234.453,"Welcome",'A',false,'B'};
+        /*Object a[]={100,234.453,"Welcome",'A',false,'B'};*/
 
         for (Object i:a){
             System.out.println(i);
