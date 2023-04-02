@@ -23,7 +23,7 @@ public class MasinaTest {
 
         Masina mazda= new Masina("Mazda","CX-5",2019,4,false,"Automata",150_000,6.8,dotariInteriorMazda,dotariExteriorMazda);
         mazda.displayMasina();
-        mazda.ListaDotari("Exterior");
+        mazda.ListaDotari("interior");
         mazda.calculPreturiDotari("Exterior");
 
     }

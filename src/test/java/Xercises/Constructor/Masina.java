@@ -46,12 +46,12 @@ public class Masina {
 
     public void ListaDotari(String dotari){
         if (dotari.equals("interior") || dotari.equals("Interior")){
-            System.out.println("Lista de preturi pentru interior este: ");
+            System.out.println("Lista de dotari pentru interior este: ");
             printListaDotari(dotariInterior);
             printListaPreturiInterior();
         }
         if (dotari.equals("exterior") || dotari.equals("Exterior")){
-            System.out.println("Lista de preturi pentru exterior este: ");
+            System.out.println("Lista de dotari pentru exterior este: ");
             printListaDotari(dotariExterior);
             printListaPreturiExterior();
         }
